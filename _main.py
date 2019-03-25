@@ -4,7 +4,7 @@ string_pos = path.index('Python') #find the python folder
 base_path = path[:string_pos]+'Python\\' #create a base filepath string
 
 func_dir = base_path+"functions\\"
-exec(open(func_dir+"sql_functions.py").read()) #file contains all sql reading and db interaction scripts
+exec(open(func_dir+"functions.py").read()) #file contains all sql reading and db interaction scripts
 
 import datetime
 import git
