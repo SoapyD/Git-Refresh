@@ -34,6 +34,7 @@ u_print('########################################')
 
 start_time = datetime.datetime.now() #need for process time u_printing
 
+errors += refresh_report(base_path+'Process-Checker')
 errors += refresh_report(base_path+'Email-Reader')
 errors += refresh_report(base_path+'Web-Service-Reader')
 errors += refresh_report(base_path+'Functions')
