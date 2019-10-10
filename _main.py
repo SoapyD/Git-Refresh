@@ -43,6 +43,7 @@ errors += refresh_report(base_path+'Queries')
 errors += refresh_report(base_path+'Service-Report')
 errors += refresh_report(base_path+'Table-Reductions')
 errors += refresh_report(base_path+'Web-Service-Reader')
+errors += refresh_report(base_path+'Warehousing-Process')
 
 finish_time = datetime.datetime.now()
 
