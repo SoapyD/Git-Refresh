@@ -46,6 +46,10 @@ errors += refresh_report(base_path+'Web-Service-Reader')
 errors += refresh_report(base_path+'Warehousing-Process')
 errors += refresh_report(base_path+'GamEffective')
 
+
+global error_count
+error_count = errors
+
 finish_time = datetime.datetime.now()
 
 u_print('')
