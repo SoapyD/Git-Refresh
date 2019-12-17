@@ -35,8 +35,10 @@ u_print('########################################')
 start_time = datetime.datetime.now() #need for process time u_printing
 
 #errors += refresh_report(base_path+'Email-Reader') #NOT NEEDED ANYMORE, THIS IS A TEST EMAIL PROJECT
+errors += refresh_report(base_path+'Automations')
 errors += refresh_report(base_path+'Email-Attachment-Reader')
 errors += refresh_report(base_path+'Functions')
+errors += refresh_report(base_path+'GamEffective')
 errors += refresh_report(base_path+'Index-Rebuilder')
 errors += refresh_report(base_path+'Process-Checker')
 errors += refresh_report(base_path+'Queries')
@@ -44,7 +46,6 @@ errors += refresh_report(base_path+'Queries')
 errors += refresh_report(base_path+'Table-Reductions')
 errors += refresh_report(base_path+'Web-Service-Reader')
 errors += refresh_report(base_path+'Warehousing-Process')
-errors += refresh_report(base_path+'GamEffective')
 
 
 global error_count
